@@ -33,6 +33,10 @@ hr {
     padding: 0.5rem 1rem;
     }
 
+.about{
+    border-radius: 3rem;
+}
+
 /* Links */
 .link-primary {
     background-color: var(--primary-color);
@@ -76,6 +80,7 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
+    padding-bottom: 1.2rem;
 }
 
 .navigation .nav-pills {
@@ -166,4 +171,8 @@ hr {
     font-weight: bold;
     font-size: large;
     padding-top: 2rem;
+}
+
+h3{
+    line-height: 1.6;  
 }
