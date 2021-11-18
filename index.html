@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
+
 <body>
     <nav class="navigation container">
-        <div class="nav-brand ">IAMDEVELOPER</div>
+        <div class="nav-brand ">Welcome to my portfolio !</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">Home</a>
@@ -22,10 +25,11 @@
             </li>
         </ul>
     </nav>
-    
+
     <header class="hero">
-        <img class="hero-img" src='images/header.svg'>
-        <!-- <img src=' https://pbs.twimg.com/profile_images/1444711416531861504/YGTUeaRW_400x400.jpg'> -->
+        <!-- <img class="hero-img" src='images/header.svg'> -->
+        <img class="hero-img" src='https://pbs.twimg.com/profile_images/1444711416531861504/YGTUeaRW_400x400.jpg'
+            alt="Rutvik Umak">
         <h1 class="hero-heading">Rutvik Umak </h1>
         <h1 class="hero-heading"> <span style="color:#818CF8">an aspiring full stack web developer</span> </h1>
     </header>
@@ -33,7 +37,26 @@
     <section class="section ow">
         <div class="container container-center">
             <h1>Technologies</h3>
-                <p>This will off white</p>
+                <div class="wrapper">
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+
+                    <i class="devicon-javascript-plain colored"></i>
+
+                    <i class="devicon-typescript-plain colored"></i>
+
+                    <i class="devicon-java-plain-wordmark colored"></i>
+
+                    <i class="devicon-mysql-plain-wordmark colored"></i>
+
+                    <i class="devicon-git-plain-wordmark colored"></i>
+
+                    <i class="devicon-vscode-plain colored"></i>
+
+                    <i class="devicon-jira-plain-wordmark colored"></i>
+                </div>
+
         </div>
     </section>
 
@@ -42,31 +65,44 @@
             <h1>Projects</h3>
                 <p>I like to showcase my work and thus, you can see my projects hosted online</p>
                 <a class="link link-primary" href="projects.html">See Projects</a>
-   
+
         </div>
     </section>
 
     <section class="section ow">
         <div class="container container-center">
             <h1>Blogs</h3>
-                <p>I am also working on some technical and non technical blogs. I like to document my journey of learning.</p>
+                <p>I am also working on some technical and non technical blogs. I like to document my journey of
+                    learning.</p>
                 <a class="link link-secondary" href="blogs.html">Read Blogs</a>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-header">Connect with me</div>
+        <div class="footer-header">Connect with me !</div>
         <ul class="footer-links list-non-bullet">
             <li class="list-item-inline">
-                <a class="link" href="https://github.com/rutvikpumak">GitHub</a>
+
+                <a class="link" href="https://github.com/rutvikpumak"  title="GitHub"><i
+                        class="devicon-github-original-wordmark colored icon" style="font-size: 3rem;"></i></a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="https://twitter.com/rutvikumak13">Twitter</a>
+                <a class="link" href="https://twitter.com/rutvikumak13" title="Twitter"><i class="devicon-twitter-original colored icon"
+                        style="color: black;"></i></a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="https://www.linkedin.com/in/rutvik-umak-58b299186/">LinkedIn</a>
+                <a class="link" href="https://www.linkedin.com/in/rutvik-umak-58b299186/"
+                title="LinkedIn"><i
+                        class="devicon-linkedin-plain colored icon" style="color: black;"></i></a>
             </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="mailto: rutvikumak@gmail.com" title="rutvikumak@gmail.com"><span class="icon" style="color: black;font-size: 3rem;">&#9993;</span></a>
+            </li>
+            
         </ul>
+        <div class="footer-footer">Made with &#10084 by Rutvik Umak</div>
     </footer>
 </body>
+
 </html>
