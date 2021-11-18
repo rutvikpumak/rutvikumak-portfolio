@@ -34,7 +34,7 @@ hr {
     }
 
 .about{
-    border-radius: 3rem;
+    border-radius: 1rem;
 }
 
 /* Links */
@@ -70,6 +70,8 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    position: sticky;
+  top: 0;
 }
 
 .navigation .link {
@@ -84,12 +86,13 @@ hr {
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: center;
 
 }
 
 .navigation .link-active {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Header */
@@ -107,7 +110,7 @@ hr {
 
 .hero .hero-heading {
     color: #6B7280;
-    padding-top: 1rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
@@ -135,7 +138,9 @@ hr {
     padding-right: 2rem;
 }
 .ow{
-    background-color: var(--off-white)
+    background-color: var(--off-white);
+    margin: 1rem 1rem;
+    border-radius: 1rem;
 }
 
 /* Footer */
@@ -145,7 +150,8 @@ hr {
     padding: 2rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem;
+   margin: 0.5rem;
 }
 
 .footer .link{
@@ -164,7 +170,7 @@ hr {
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
-    padding-bottom: 2rem;
+   
 }
 
 .footer .footer-footer{
@@ -175,4 +181,9 @@ hr {
 
 h3{
     line-height: 1.6;  
+}
+
+hr{
+    max-width: 250px;
+   margin: auto;
 }
