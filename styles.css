@@ -2,19 +2,22 @@
 
 :root {
     --primary-color: #60A5FA;
-    --off-white:#F3F4F6
+    --off-white: #F3F4F6
 }
-@media(max-width: 560px){
-    .list-non-bullet,.links{
-     display:inline-flex;
-     padding-left: 0.8rem;
+
+@media(max-width: 560px) {
+
+    .list-non-bullet,
+    .links {
+        display: inline-flex;
+        padding-left: 0.8rem;
     }
-   
+
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px; 
+    margin: 0px;
 }
 
 hr {
@@ -35,9 +38,9 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    }
+}
 
-.about{
+.about {
     border-radius: 1rem;
 }
 
@@ -53,23 +56,24 @@ hr {
     box-shadow: 0px 15px 20px #DBEAFE;
     color: #fff;
     transform: translateY(-7px);
-  }
+}
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    
+
 }
+
 /* Spaces */
-.margin-md{
-    margin:2rem
+.margin-md {
+    margin: 2rem
 }
+
 /* List */
 
 .list-non-bullet {
     list-style: none;
-
 }
 
 .list-item-inline {
@@ -95,8 +99,9 @@ hr {
     font-weight: bold;
     font-size: 1.1rem;
     padding-bottom: 1.2rem;
-    
+
 }
+
 .navigation .nav-pills {
     text-align: center;
 }
@@ -116,6 +121,9 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+.home {
     border-radius: 50%;
 }
 
@@ -126,10 +134,11 @@ hr {
 }
 
 /* sections */
-.section{
-    
+.section {
+
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
 }
@@ -144,11 +153,12 @@ hr {
     padding-top: 1rem;
 }
 
-.colored{
+.colored {
     padding-bottom: 2rem;
     padding-right: 2rem;
 }
-.ow{
+
+.ow {
     background-color: var(--off-white);
     margin: 1rem 1rem;
     border-radius: 1rem;
@@ -156,7 +166,7 @@ hr {
 
 /* Footer */
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem;
     text-align: center;
@@ -165,39 +175,40 @@ hr {
     margin: 0.5rem;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.icon{
-   font-size: 40px; 
+.icon {
+    font-size: 40px;
 }
 
-.footer .ul{
+.footer .ul {
     padding-inline-start: 0px;
     padding-bottom: 5rem;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
     text-align: center;
-   
+
 }
 
-.footer .footer-footer{
+.footer .footer-footer {
     font-weight: bold;
     font-size: large;
     padding-top: 2rem;
 }
 
-h3,p{
-    line-height: 1.6;  
+h3,
+p {
+    line-height: 1.6;
 }
 
-hr{
+hr {
     max-width: 250px;
-   margin: auto;
+    margin: auto;
 }
 
 .btn {
@@ -216,11 +227,11 @@ hr{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    }
+}
 
-  .btn:hover {
+.btn:hover {
     background-color: #9CA3AF;
     box-shadow: 0px 15px 20px #9CA3AF;
     color: #fff;
     transform: translateY(-7px);
-  }
+}
