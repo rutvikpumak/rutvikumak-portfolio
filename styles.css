@@ -4,10 +4,12 @@
     --primary-color: #60A5FA;
     --off-white:#F3F4F6
 }
-@media(max-width: 400px){
-    .list-item-inline{
-        font-size: 0.7rem;
+@media(max-width: 560px){
+    .list-non-bullet,.links{
+     display:inline-flex;
+     padding-left: 0.8rem;
     }
+   
 }
 
 body {
