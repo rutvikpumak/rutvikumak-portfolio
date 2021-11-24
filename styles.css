@@ -8,11 +8,12 @@
 
 @media(max-width: 560px) {
 
-    .list-non-bullet{
+    .list-non-bullet {
         display: inline-flex;
         padding-left: 0.8rem;
     }
-    .hero .hero-img{
+
+    .hero .hero-img {
         width: 70%;
         height: auto;
     }
@@ -100,7 +101,7 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-size: 1rem; 
+    font-size: 1rem;
     padding-bottom: 1.2rem;
     font-family: 'Varela Round', sans-serif;
 }
