@@ -11,17 +11,18 @@
     .list-non-bullet {
         display: inline-flex;
         padding-left: 0.8rem;
-        
     }
-    
-    .footer .list-item-inline{
+
+    .footer .list-item-inline {
         padding: 0rem 0.2rem;
     }
+
     .hero .hero-img {
         width: 70%;
         height: auto;
     }
-    .link-secondary{
+
+    .link-secondary {
         display: inline-flex;
         margin-bottom: 0.4rem;
     }
@@ -199,6 +200,11 @@ hr {
 .footer .ul {
     padding-inline-start: 0px;
     padding-bottom: 5rem;
+}
+
+.footer .link {
+    font-size: 30px;
+    color: black;
 }
 
 .footer .footer-header {
