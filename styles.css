@@ -10,8 +10,7 @@
 
     .list-non-bullet {
         display: inline-flex;
-        /* padding-left: 0.8rem; */
-        text-align: center;
+        padding-left: 0.8rem;
     }
 
     .hero .hero-img {
@@ -21,9 +20,6 @@
     .link-secondary{
         display: inline-flex;
         margin-bottom: 0.4rem;
-    }
-    .footer{
-        margin: none;
     }
 }
 
